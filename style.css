@@ -57,6 +57,10 @@ body {
 .header__search-input::placeholder {
   color: #bbc4d6;
 }
+.header__search-input:focus{
+  outline: none;
+  
+}
 
 .user {
   margin-left: auto;
