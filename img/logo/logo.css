@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'font93c983106a9e9361742a87b3d8f81bd8';
+      
+      src:    url('https://nomail.com.ua/files/eot/93c983106a9e9361742a87b3d8f81bd8.eot?#iefix') format('embedded-opentype'),
+              url('https://nomail.com.ua/files/woff/93c983106a9e9361742a87b3d8f81bd8.woff') format('woff'),
+              url('https://nomail.com.ua/files/woff2/93c983106a9e9361742a87b3d8f81bd8.woff2') format('woff2');
+  }
+  
+  @font-face { font-family: 'HandelGothicTL-Regular';  src: local('HandelGothicTL-Regular'), url('https://nomail.com.ua/files/woff/93c983106a9e9361742a87b3d8f81bd8.woff') format('woff'); }
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.circle {
+  width: 38px;
+  position: relative;
+  border-radius: 50%
+}
+
+
+
+
+/* .circle1::after{
+  content: ".";
+  height: 6px;
+  font-size: 40px;
+  color: #F95A59;
+left: 19px;
+top: -12px;
+border-radius: 50%;
+background-color: #F95A59;
+position: absolute;
+/* z-index: 1; */
+
+.circle__smoll {
+  width: 7px;
+  position: absolute;
+  border-radius: 50%;
+  top: 25px;
+  left: 27px;
+  background-color: #F95A59;
+
+
+}
+
+/* .logo {
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  left: 60px;
+} */
+
+.logo__title {
+  font-size: 25px;
+  letter-spacing: 0.55;
+  font-stretch: ultra-expanded;
+  color: #F95A59;
+  position: absolute;
+  top: 2px;
+  left: 42px;
+  font-family: 'HandelGothicTL-Regular';
+}
